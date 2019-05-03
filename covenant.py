@@ -305,7 +305,7 @@ elif action == 'authTrakt':
     trakt.authTrakt()
 
 elif action == 'smuSettings':
-    try: import urlresolver
+    try: import resolveurl as urlresolver
     except: pass
     urlresolver.display_settings()
 
