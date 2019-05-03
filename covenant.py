@@ -42,7 +42,7 @@ episode = params.get('episode')
 
 tvshowtitle = params.get('tvshowtitle')
 
-premiered = params.get('premiered')
+premiered = params.get('date')
 
 url = params.get('url')
 
